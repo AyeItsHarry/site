@@ -31,6 +31,8 @@ repository: "ayeitsharry/site"
 search: true
 author:
   name:  "Harry Walker"
+  bio:  "The man, the myth, the legend."
+  avatar: "/assets/images/harry-walker-photo.jpg"
   links:
     - label: "GitHub"
       icon: "fa-brands fa-github"
