@@ -22,7 +22,7 @@ locale: "en-GB"
 title: Harry Walker's personal site!
 name: "Harry Walker"
 title_separator: "|"
-email: ayeitsharry@proton.me
+email: "me@harrywalker.uk"
 description: >- # this means to ignore newlines until "baseurl:"
   Wow I made a website!
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -40,7 +40,7 @@ author:
       url: "https://discord.gg"
     - label: "Email"
       icon: "fa-regular fa-envelope"
-      url: "mailto:ayeitsharry@proton.me"
+      url: "mailto:me@harrywalker.uk"
 footer:
   links:
       - label: "GitHub"
@@ -51,7 +51,7 @@ footer:
         url: "https://discord.gg"
       - label: "Email"
         icon: "fa-regular fa-envelope"
-        url: "mailto:ayeitsharry@proton.me"
+        url: "mailto:me@harrywalker.uk"
 defaults:
   - scope:
       path: ""
