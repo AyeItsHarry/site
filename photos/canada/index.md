@@ -26,7 +26,15 @@ feature_row_3:
         image_caption: "Mount Robson"
     -   image_path: /assets/images/canada/9.jpg
         image_caption: "Whistler Mountain"
+feature_row_4:
+    -   image_path: /assets/images/canada/10.jpg
+        image_caption: "Vancouver"
+    -   image_path: /assets/images/canada/11.jpg
+        image_caption: "Vancouver"
+    -   image_path: /assets/images/canada/12.jpg
+        image_caption: "Vancouver"
 ---
 {% include feature_row %}
 {% include feature_row id="feature_row_2" %}
 {% include feature_row id="feature_row_3" %}
+{% include feature_row id="feature_row_4" %}
