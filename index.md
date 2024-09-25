@@ -7,7 +7,7 @@ header:
     caption: "Lake Louise, Canada"
 excerpt: "Welcome to harrywalker.uk!"
 intro:
-    -   excerpt: "Hi everyone! My name is Harry, I'm a year old college student in the North East of England. Currently, I'm studying Maths, Physics and Computer Science."
+    -   excerpt: "Hi everyone! My name is Harry, I'm a 16 year old college student in the North East of England. Currently, I'm studying Maths, Physics and Computer Science."
 wiilink:
     -   image_path: /assets/images/wiilink.jpg
         alt: "WiiLink Logo"
