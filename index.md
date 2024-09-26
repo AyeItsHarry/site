@@ -27,5 +27,5 @@ photography:
         btn_class: "btn--primary"
 ---
 {% include feature_row id="intro" type="center" %}
-{% include feature_row type="left" id="wiilink" %}
 {% include feature_row type="right" id="photography" %}
+{% include feature_row type="left" id="wiilink" %}
