@@ -2,14 +2,14 @@
 layout: splash
 title: "Home"
 header:
-    overlay_image: /assets/images/homepage-banner.jpg
+    overlay_image: /assets/images/homepage-banner.webp
     overlay_filter: 0.2
     caption: "Duffy Lake, Canada"
 excerpt: "Welcome to harrywalker.uk!"
 intro:
     -   excerpt: "Hi everyone! My name is Harry, I'm a 16 year old college student in the North East of England. Currently, I'm studying Maths, Physics and Computer Science."
 wiilink:
-    -   image_path: /assets/images/wiilink.jpg
+    -   image_path: /assets/images/wiilink.webp
         alt: "WiiLink Logo"
         title: "WiiLink"
         excerpt: "In my spare time, I contribute to the WiiLink project, which revives WiiConnect24 and Nintendo WFC services. WiiLink also translates and makes some Japanese exclusive Wii channels available once again. My favourite of these is Wii Room (Wiiの間)."
@@ -17,7 +17,7 @@ wiilink:
         btn_label: "Learn more"
         btn_class: "btn--primary"
 photography:
-    -   image_path: /assets/images/photography.jpg
+    -   image_path: /assets/images/photography.webp
         image_caption: "Beauvert Lake, Canada"
         alt: "Image of Beauvert Lake in Canada"
         title: "Photography"
