@@ -10,10 +10,6 @@ export const headerData = {
       text: 'Blog',
       href: getBlogPermalink(),
     },
-    {
-      text: 'Photos',
-      href: getPermalink('photography', 'category'),
-    },
   ],
   actions: [{ text: 'Discord', href: 'https://discord.gg/rreHJdkfQh', target: '_blank' }],
 };
