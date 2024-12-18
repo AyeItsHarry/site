@@ -1,6 +1,6 @@
 ---
 import LinkButton from "./LinkButton.astro";
-import socialIcons from "@assets/socialIcons";
+import { Icon } from "astro-icon/components"
 
 const URL = Astro.url;
 
@@ -9,31 +9,37 @@ const shareLinks = [
     name: "WhatsApp",
     href: "https://wa.me/?text=",
     linkTitle: `Share this post via WhatsApp`,
+    icon: "simple-icons:whatsapp",
   },
   {
     name: "Facebook",
     href: "https://www.facebook.com/sharer.php?u=",
     linkTitle: `Share this post on Facebook`,
+    icon: "simple-icons:facebook",
   },
   {
     name: "X",
     href: "https://x.com/intent/post?url=",
     linkTitle: `Share this post on X`,
+    icon: "simple-icons:x",
   },
   {
     name: "Telegram",
     href: "https://t.me/share/url?url=",
     linkTitle: `Share this post via Telegram`,
+    icon: "simple-icons:telegram",
   },
   {
     name: "Pinterest",
     href: "https://pinterest.com/pin/create/button/?url=",
     linkTitle: `Share this post on Pinterest`,
+    icon: "simple-icons:pinterest",
   },
   {
     name: "Mail",
     href: "mailto:?subject=See%20this%20post&body=",
     linkTitle: `Share this post via email`,
+    icon: "lucide:mail",
   },
 ] as const;
 ---
@@ -48,7 +54,7 @@ const shareLinks = [
           className="link-button"
           title={social.linkTitle}
         >
-          <Fragment set:html={socialIcons[social.name]} />
+          <Icon name={social.icon} />
           <span class="sr-only">{social.linkTitle}</span>
         </LinkButton>
       ))
