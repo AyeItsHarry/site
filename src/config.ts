@@ -43,7 +43,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://instagram.com/harrywalkeruk",
     linkTitle: `Instagram`,
     active: true,
     icon: "simple-icons:instagram",
@@ -78,9 +78,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "YouTube",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on YouTube`,
-    active: false,
+    href: "https://youtube.com/@ayeitsharry",
+    linkTitle: `YouTube`,
+    active: true,
     icon: "simple-icons:youtube",
   },
   {
