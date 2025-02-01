@@ -3,7 +3,7 @@ title:  "5 common Wii Homebrew mistakes to avoid when modding your console"
 description:  "5 common Wii Homebrew mistakes to avoid when modding your console"
 pubDatetime:   2024-10-05T20:58:39+01:00
 featured: true
-tags: [homebrew]
+tags: [homebrew, tech]
 ---
 
 For quite a while now, I've been giving people support with installing homebrew on their Wii consoles. In that time, I've been able to pick up on some of the most common mistakes people make when installing homebrew on their consoles. Therefore, in this article, I'm going to talk through the top 5 most common mistakes people make when homebrewing their console.
