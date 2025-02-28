@@ -1,12 +1,11 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://harrywalker.uk", // replace this with your deployed domain
-  author: "Harry Walker",
-  profile: "https://harrywalker.uk/about",
-  desc: "Harry Walker's personal website!",
-  title: "harrywalker.uk",
-  ogImage: "astropaper-og.jpg",
+  website: "https://islawalker.uk", // replace this with your deployed domain
+  author: "Isla Walker",
+  profile: "https://islawalker.uk/about",
+  desc: "Isla Walker's personal website!",
+  title: "islawalker.uk",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 5,
@@ -29,14 +28,14 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Bluesky",
-    href: "https://bsky.app/profile/harrywalker.uk",
+    href: "https://bsky.app/profile/islawalker.uk",
     linkTitle: `Bluesky`,
     active: true,
     icon: "simple-icons:bluesky",
   },
   {
     name: "Github",
-    href: "https://github.com/ayeitsharry",
+    href: "https://github.com/Isla-Walker",
     linkTitle: `GitHub`,
     active: true,
     icon: "simple-icons:github",
@@ -45,7 +44,7 @@ export const SOCIALS: SocialObjects = [
     name: "Instagram",
     href: "https://instagram.com/harrywalkeruk",
     linkTitle: `Instagram`,
-    active: true,
+    active: false,
     icon: "simple-icons:instagram",
   },
   {
@@ -57,7 +56,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:me@harrywalker.uk",
+    href: "mailto:me@islawalker.uk",
     linkTitle: `Email`,
     active: true,
     icon: "lucide:mail",
@@ -80,7 +79,7 @@ export const SOCIALS: SocialObjects = [
     name: "YouTube",
     href: "https://youtube.com/@ayeitsharry",
     linkTitle: `YouTube`,
-    active: true,
+    active: false,
     icon: "simple-icons:youtube",
   },
   {
