@@ -1,0 +1,27 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import GuideDetails from "@layouts/GuideDetails.astro";
+import getSortedGuides from "@utils/getSortedGuides";
+
+export interface Props {
+  post: CollectionEntry<"guide">;
+}
+
+export async function getStaticPaths() {
+  const posts = await getCollection("guide", ({ data }) => !data.draft);
+
+  const postResult = posts.map(post => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+
+  return postResult;
+}
+
+const { post } = Astro.props;
+
+const posts = await getCollection("guide");
+const sortedPosts = getSortedGuides(posts);
+---
+
+<GuideDetails post={post} posts={sortedPosts} />

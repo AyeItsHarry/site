@@ -56,7 +56,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:me@islawalker.uk",
+    href: "mailto:contact@islawalker.uk",
     linkTitle: `Email`,
     active: true,
     icon: "lucide:mail",
