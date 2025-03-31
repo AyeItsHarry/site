@@ -47,15 +47,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       <p>
         I'm currently studying A levels in Maths, Further Maths, Physics and Computer Science. In my free time, I love contributing to open source projects!
       </p>
-      <p>
-        Currently, I'm spending a lot of time working on
-        <LinkButton
-          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://wiilink.ca"
-        >
-          WiiLink
-        </LinkButton>, be sure to check it out!
-      </p>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
