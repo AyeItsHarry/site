@@ -1,11 +1,11 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://islawalker.uk", // replace this with your deployed domain
-  author: "Isla Walker",
-  profile: "https://islawalker.uk/about",
-  desc: "Isla Walker's personal website!",
-  title: "islawalker.uk",
+  website: "https://harrywalker.uk", // replace this with your deployed domain
+  author: "Harry Walker",
+  profile: "https://harrywalker.uk/about",
+  desc: "Harry Walker's personal website!",
+  title: "harrywalker.uk",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 5,
@@ -28,14 +28,14 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Bluesky",
-    href: "https://bsky.app/profile/islawalker.uk",
+    href: "https://bsky.app/profile/harrywalker.uk",
     linkTitle: `Bluesky`,
     active: true,
     icon: "simple-icons:bluesky",
   },
   {
     name: "Github",
-    href: "https://github.com/Isla-Walker",
+    href: "https://github.com/hwalker56",
     linkTitle: `GitHub`,
     active: true,
     icon: "simple-icons:github",
@@ -56,7 +56,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:contact@islawalker.uk",
+    href: "mailto:contact@harrywalker.uk",
     linkTitle: `Email`,
     active: true,
     icon: "lucide:mail",
